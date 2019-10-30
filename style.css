@@ -30,4 +30,107 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
-/* ----- zde začni psát vlastní CSS ----- */
+.menu {
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #25133d;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-align: left;
+}
+
+.appka {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.poutac {
+  background-image: url(images/pozadi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popis h1, p, a {
+  color: white;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.popis p {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.popis {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  justify-content: space-around;
+}
+
+.tlacitka a {
+  text-decoration: none;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  
+}
+
+
+.tlacitka a:hover {
+  background-color: #48418e;
+}
+
+.ruka {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.ruka img{
+  height: 90%;
+}
+
+.moznosti {
+  display: flex;
+  text-align: center;
+  padding: 50px 30px;
+}
+
+.moznosti img{
+  height: 70px;
+}
+
+.moznosti p{
+  color: black;
+}
+
+.moznosti h2{
+  color: #48418e;
+}
+
+.paticka{
+  background-color: #48418e;
+  text-align: center;
+  padding: 1px;
+  color: #e5e5e5;
+  font-weight: 300;
+
+}
