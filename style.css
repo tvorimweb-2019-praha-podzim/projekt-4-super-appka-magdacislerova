@@ -48,7 +48,9 @@ body {
   text-align: left;
 }
 
-.appka {
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -66,7 +68,7 @@ body {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 90px;
   font-weight: normal;
   margin: 0;
 }
@@ -79,18 +81,19 @@ h1 {
 .popis {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 35px;
   justify-content: space-around;
 }
 
 .tlacitka a {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 300 bold;
   display: inline-block;
   padding: 10px 20px;
   border: 1px solid white;
   border-radius: 5px;
-  
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -120,6 +123,7 @@ h1 {
 
 .moznosti p{
   color: black;
+  text-align: center;
 }
 
 .moznosti h2{
@@ -132,5 +136,6 @@ h1 {
   padding: 1px;
   color: #e5e5e5;
   font-weight: 300;
+  margin: 0;
 
 }
